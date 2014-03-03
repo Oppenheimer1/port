@@ -1,0 +1,93 @@
+body {
+  font-family: 'Didot', sans-serif;
+  color: #FAF3BC;
+  background: black;
+}
+
+a {
+  color: #4FB69F;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4.750em;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-size: 1.500em;
+  color: #F5F5DC;
+}
+h3 {
+  font-size: 1.25em;
+  color: #F5F5DC;
+}
+
+
+.btn {
+  color: #FAF3BC;
+  background: #4FB69F url('img/texture.png') no-repeat right top;
+  padding: 0.9375em 1.875em;
+  margin: 0.625em 0px;
+  border-radius: 1.5625em;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #4CC4A7;
+}
+
+ul.nav {
+  margin: 7.500em 0 0 0;
+  list-style: none;
+  float: right;
+}
+
+ul.nav li {
+  float: left;
+  margin-right: 2.500em;
+}
+
+ul.nav li a {
+  color: #FAF3BC;
+}
+
+#intro {
+  margin: 3.125em 0 4.6875em 0;
+}
+
+#new-cupcakes img {
+  border: 0.0625em solid #FAF3BC;
+  margin: 0 0 0.625em 0;
+}
+
+#featured-cupcake img {
+  border: 0.0625em solid #FAF3BC;
+}
+
+#copyright {
+  border-top: 0.500em solid #2A0400;
+  padding: 0.625em 0px;
+  margin: 0.625em 0px;
+  text-align: center;
+}
+#grid_4
+{
+border: 0.500em solid #FAF3BC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
