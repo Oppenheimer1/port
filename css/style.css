@@ -1,3 +1,5 @@
+/*global*/
+
 body {
   font-family: 'Didot', sans-serif;
   color: #FAF3BC;
@@ -8,6 +10,15 @@ a {
   color: #4FB69F;
   text-decoration: none;
 }
+
+img {
+  max-width: 100%;
+  height:auto;
+}
+
+/*typography*/
+
+
 
 h1 {
   font-size: 4.750em;
@@ -27,9 +38,9 @@ h3 {
 .btn {
   color: #FAF3BC;
   background: #4FB69F url('img/texture.png') no-repeat right top;
-  padding: 0.9375em 1.875em;
-  margin: 0.625em 0px;
-  border-radius: 1.5625em;
+  padding: 15px 30px;
+  margin: 10px 0px;
+  border-radius: 25px;
   text-transform: uppercase;
 }
 
@@ -38,14 +49,14 @@ h3 {
 }
 
 ul.nav {
-  margin: 7.500em 0 0 0;
+  margin: 120px 0 0 0;
   list-style: none;
   float: right;
 }
 
 ul.nav li {
   float: left;
-  margin-right: 2.500em;
+  margin-right: 40px;
 }
 
 ul.nav li a {
@@ -53,27 +64,32 @@ ul.nav li a {
 }
 
 #intro {
-  margin: 3.125em 0 4.6875em 0;
+  margin: 50px 0 75px 0;
+}
+
+#dna1 img {
+  height: auto;
+  
 }
 
 #new-cupcakes img {
-  border: 0.0625em solid #FAF3BC;
-  margin: 0 0 0.625em 0;
+  border: 1px solid #FAF3BC;
+  margin: 0 0 10px 0;
 }
 
 #featured-cupcake img {
-  border: 0.0625em solid #FAF3BC;
+  border: 1px solid #FAF3BC;
 }
 
 #copyright {
-  border-top: 0.500em solid #2A0400;
-  padding: 0.625em 0px;
-  margin: 0.625em 0px;
+  border-top: 8px solid #2A0400;
+   padding: 10px 0px;
+  margin: 10px 0px;
   text-align: center;
 }
 #grid_4
 {
-border: 0.500em solid #FAF3BC;
+border: 8px solid #FAF3BC;
 }
 
 
