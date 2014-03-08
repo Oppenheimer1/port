@@ -23,6 +23,7 @@ img {
 h1 {
   font-size: 4.750em;
   letter-spacing: -1.5px;
+  text-align: center
 }
 
 h2 {
@@ -92,6 +93,61 @@ ul.nav li a {
 border: 8px solid #FAF3BC;
 }
 
+/*media queries*/
+/* iphone ---------- */
+@media screen and (max-width: 480px) {
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 { width: 100.0%;
+
+}
+
+#nav ul {
+  float: left;
+  margin:5% 0;
+}
+
+#nav ul{
+  float: left;
+  margin:5% 0;
+}
+
+#nav ul li.dna {
+  width: 25%;
+}
+#nav ul li.hgp {
+  width: 25%;
+}
+#nav ul li.oldest {
+  width: 25%;
+}
+#nav ul li.last {
+  width: 25%;
+}
+ 
+#messier87
+{
+  max-width: 100%
+}
+
+#featured-cupcake, #new-cupcakes{
+  margin:5% 0;
+}
+
+#new-cupcakes img{
+  max-width: 95%;
+}
+}
 
 
 
