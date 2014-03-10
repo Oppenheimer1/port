@@ -23,7 +23,7 @@
       </ul>
     </div>
     <div id="intro" class="grid_9">
-      <h3>Hi, my name is Lars Berg. One of the things I love and one of the most quirky things about me is that I love to learn about Telomeres. Telomeres are fascinating. One reason that our bodies start to age is the shortening of our telomeres.</h3>
+      Hi, my name is Lars Berg. One of the things I love and one of the most quirky things about me is that I love to learn about Telomeres. Telomeres are fascinating. One reason that our bodies start to age is the shortening of our telomeres.
       <p><a href="http://en.wikipedia.org/wiki/Telomere" class="btn">Learn More About Telomeres</a></p>
     </div>
     <div id="dna1" class="grid_3 omega">
@@ -70,5 +70,14 @@
     </div>
 
   </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  </script>
+  <script>
+  $(function)(){
+    causeRepaintsOn = $("h1,h2,h3,p");
+    $(window).resize(function)(){
+      causeRepaintsOn.css("z-index",1);
+    });
+    });
 </body>
 </html>
